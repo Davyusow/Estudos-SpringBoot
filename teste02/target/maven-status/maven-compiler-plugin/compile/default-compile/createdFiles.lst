@@ -1,0 +1,9 @@
+com/example/demo/services/ColourPrinter.class
+com/example/demo/impl/EnglishGreenPrinter.class
+com/example/demo/impl/ColourPrinterImpl.class
+com/example/demo/impl/EnglishBluePrinter.class
+com/example/demo/CoresApplication.class
+com/example/demo/services/GreenPrinter.class
+com/example/demo/services/RedPrinter.class
+com/example/demo/impl/EnglishRedPrinter.class
+com/example/demo/services/BluePrinter.class

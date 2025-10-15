@@ -1,7 +1,7 @@
 package com.example.demo;
 
-import com.example.demo.interfaces.ColourPrinter;
-import com.example.demo.services.ColourPrinterImpl;
+import com.example.demo.impl.ColourPrinterImpl;
+import com.example.demo.services.ColourPrinter;
 import lombok.extern.java.Log;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -16,7 +16,7 @@ public class CoresApplication implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) {
+    public void run(String... args) throws Exception {
         final ColourPrinter colourPrinter = new ColourPrinterImpl();
         log.info(colourPrinter.print());
     }

@@ -1,4 +1,4 @@
-package com.example.demo.interfaces;
+package com.example.demo.services;
 
 public interface GreenPrinter {
     String print();
