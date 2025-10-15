@@ -11,13 +11,19 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @Log
 public class CoresApplication implements CommandLineRunner {
 
+    private ColourPrinter colourPrinter;
+
+    public CoresApplication(ColourPrinter colourPrinter) {
+        this.colourPrinter = colourPrinter;
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(CoresApplication.class, args);
     }
 
     @Override
     public void run(String... args) throws Exception {
-        final ColourPrinter colourPrinter = new ColourPrinterImpl();
-        log.info(colourPrinter.print());
+        //final ColourPrinter colourPrinter = new ColourPrinterImpl();
+        log.info(colourPrinter.print()); //injeção de dependência
     }
 }

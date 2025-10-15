@@ -1,8 +1,12 @@
 /home/davyusow/Projetos/Java/Estudos-SpringBoot/teste02/src/main/java/com/example/demo/CoresApplication.java
+/home/davyusow/Projetos/Java/Estudos-SpringBoot/teste02/src/main/java/com/example/demo/config/PrinterConfig.java
 /home/davyusow/Projetos/Java/Estudos-SpringBoot/teste02/src/main/java/com/example/demo/impl/ColourPrinterImpl.java
 /home/davyusow/Projetos/Java/Estudos-SpringBoot/teste02/src/main/java/com/example/demo/impl/EnglishBluePrinter.java
 /home/davyusow/Projetos/Java/Estudos-SpringBoot/teste02/src/main/java/com/example/demo/impl/EnglishGreenPrinter.java
 /home/davyusow/Projetos/Java/Estudos-SpringBoot/teste02/src/main/java/com/example/demo/impl/EnglishRedPrinter.java
+/home/davyusow/Projetos/Java/Estudos-SpringBoot/teste02/src/main/java/com/example/demo/impl/PortugueseBluePrinter.java
+/home/davyusow/Projetos/Java/Estudos-SpringBoot/teste02/src/main/java/com/example/demo/impl/PortugueseGreenPrinter.java
+/home/davyusow/Projetos/Java/Estudos-SpringBoot/teste02/src/main/java/com/example/demo/impl/PortugueseRedPrinter.java
 /home/davyusow/Projetos/Java/Estudos-SpringBoot/teste02/src/main/java/com/example/demo/services/BluePrinter.java
 /home/davyusow/Projetos/Java/Estudos-SpringBoot/teste02/src/main/java/com/example/demo/services/ColourPrinter.java
 /home/davyusow/Projetos/Java/Estudos-SpringBoot/teste02/src/main/java/com/example/demo/services/GreenPrinter.java
